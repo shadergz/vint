@@ -2,7 +2,7 @@
 
 - A auxiliary vector table interpreter for human readable format
 
-At loading a new program process into the memory the loader goes to load the actual auxiliary vector table from the operation system and to use/send this information to the new process application.
+At loading a new program process into the memory the loader goes to load the actual auxiliary vector table from the Operating System and to use/send this information to the new process application.
 
 > Some applications that runs into arm machine that does hasn't an cpuid like instruction, uses some flags value from the auxiliary vector to identifier some hardwares capabilities, like the flag:
 

@@ -2,7 +2,7 @@
 all: vint
 
 vint: vint.c
-	cc -o $@ $<
+	cc -O2 -Wall -o $@ $<
 
 clean:
 	-rm -f vint
